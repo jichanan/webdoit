@@ -36,13 +36,22 @@
    
 - `표를 만드는 태그`
 
-    \<table>, \<tr>, \<td>, \<th> 표 만들기 \<caption>, \<figcaption> 표 제목 붙이기 \<thead>, \<tbody>, \<tfoot> 표 구조 정의  
+    \<table>, \<tr>, \<td>, \<th> 표 만들기 \<caption>, \<figcaption> 표 제목 붙이기 \<thead>, \<tbody>, \<tfoot> 표 구조 정의
+    
+    
     \<col>, \<colgroup> 열 묶기
 
+### **[chapter3] 이미지와 하이퍼링크**
 
+- `이미지`
 
+   \<img> 이미지 삽입 (절대경로/상대경로) alt속성: 대체 텍스트 width, height속성: 이미지 크기조정 \<figure>, \<figcaption> 이미지 설명 붙히기
 
-
+- `링크 만들기`
+   
+   \<a>, href: 링크 만들기  
+   target속성: 새 탭에서 링크  
+   \<map>, \<area>, usemap속성: 이미지맵 
 
 
 
