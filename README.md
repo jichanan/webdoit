@@ -73,6 +73,115 @@ size,minlength,maxlength속성 = 길이,최소길이,최대길이
 
 \<select>,\<optgroup>,\<option> = 드롭다운목록 \<datalist>,\<option> = 검색 자동완성 \<textarea> = 여러줄 입력하는 텍스트영역 (약관)
 
+### **[chapter5] CSS 기초**
+
+- `주요선택자`
+
+전체선택자(\*), 태그선택자, 클래스선택자, id선택자, 그룹선택자(h1, h2 {스타일})
+
+- `캐스케이딩`
+
+1. 인라인 스타일  
+2. id 스타일  
+3. 클래스 스타일  
+4. 태그 스타일
+
+### **[chapter6] 텍스트 관련 스타일**
+
+- `글꼴 관련 스타일`
+
+font-family (글꼴), 구글 웹 폰트사용, font-size(글자크기), font-weight(글자굵기), font-variant(작은 대문자)
+
+- `텍스트 스타일`
+
+color(글자 색), text-decoration(밑줄,취소선), text-transform(대소문자 변환), text-shadow(그림자), white-space(공백처리), letter-spacing과word-spacing(자간)
+
+- `문단 스타일`
+
+line-height(줄 간격), text-overflow(넘치는텍스트 표기), text-indent(들여쓰기)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
