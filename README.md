@@ -51,10 +51,27 @@
    
    \<a>, href: 링크 만들기  
    target속성: 새 탭에서 링크  
-   \<map>, \<area>, usemap속성: 이미지맵 
+   \<map>, \<area>, usemap속성: 이미지맵
+   
+ ### **[chapter4] 폼 관련 태그들**
+   
+- `폼 만들기`
 
+\<form>, \<label> = 폼, 라벨 만들기 \<feildset>, \<legend> = 폼 요소 그룹으로 묶기
 
+- `사용자 입력을 위한 input태그`
 
+type="hidden" = 히든필드 type="text" = 텍스트 필드 type="password" = 패스워드 type="number" = 숫자 입력 type="range" = 숫자지정(슬라이드막대)
+type="radio", type="checkbox" = 라디오버튼,체크박스 type="date", type="month", type="week" = 날짜표시
+
+- `<input>태그의 다양한 속성`
+
+autofocus속성 = 입력커서표시 placeholder속성 = 힌트표시 readonly속성 = 읽기전용 required속성 = 필수필드 min,max,step속성 = 최소,최대값,단위
+size,minlength,maxlength속성 = 길이,최소길이,최대길이 
+
+- `데이터 나열하기`
+
+\<select>,\<optgroup>,\<option> = 드롭다운목록 \<datalist>,\<option> = 검색 자동완성 \<textarea> = 여러줄 입력하는 텍스트영역 (약관)
 
 
 
