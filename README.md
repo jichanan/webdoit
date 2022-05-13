@@ -57,52 +57,78 @@
    
 - `폼 만들기`
 
-\<form>, \<label> = 폼, 라벨 만들기 \<feildset>, \<legend> = 폼 요소 그룹으로 묶기
+   \<form>, \<label> = 폼, 라벨 만들기 \<feildset>, \<legend> = 폼 요소 그룹으로 묶기
 
 - `사용자 입력을 위한 input태그`
 
-type="hidden" = 히든필드 type="text" = 텍스트 필드 type="password" = 패스워드 type="number" = 숫자 입력 type="range" = 숫자지정(슬라이드막대)
-type="radio", type="checkbox" = 라디오버튼,체크박스 type="date", type="month", type="week" = 날짜표시
+   type="hidden" = 히든필드 type="text" = 텍스트 필드 type="password" = 패스워드 type="number" = 숫자 입력 type="range" = 숫자지정(슬라이드막대)
+   type="radio", type="checkbox" = 라디오버튼,체크박스 type="date", type="month", type="week" = 날짜표시
 
 - `<input>태그의 다양한 속성`
 
-autofocus속성 = 입력커서표시 placeholder속성 = 힌트표시 readonly속성 = 읽기전용 required속성 = 필수필드 min,max,step속성 = 최소,최대값,단위
-size,minlength,maxlength속성 = 길이,최소길이,최대길이 
+   autofocus속성 = 입력커서표시 placeholder속성 = 힌트표시 readonly속성 = 읽기전용 required속성 = 필수필드 min,max,step속성 = 최소,최대값,단위
+   size,minlength,maxlength속성 = 길이,최소길이,최대길이 
 
 - `데이터 나열하기`
 
-\<select>,\<optgroup>,\<option> = 드롭다운목록 \<datalist>,\<option> = 검색 자동완성 \<textarea> = 여러줄 입력하는 텍스트영역 (약관)
+   \<select>,\<optgroup>,\<option> = 드롭다운목록 \<datalist>,\<option> = 검색 자동완성 \<textarea> = 여러줄 입력하는 텍스트영역 (약관)
 
 ### **[chapter5] CSS 기초**
 
 - `주요선택자`
 
-전체선택자(\*), 태그선택자, 클래스선택자, id선택자, 그룹선택자(h1, h2 {스타일})
+   전체선택자(\*), 태그선택자, 클래스선택자, id선택자, 그룹선택자(h1, h2 {스타일})
 
 - `캐스케이딩`
 
-1. 인라인 스타일  
-2. id 스타일  
-3. 클래스 스타일  
-4. 태그 스타일
+   1. 인라인 스타일  
+   2. id 스타일  
+   3. 클래스 스타일  
+   4. 태그 스타일
 
 ### **[chapter6] 텍스트 관련 스타일**
 
 - `글꼴 관련 스타일`
 
-font-family (글꼴), 구글 웹 폰트사용, font-size(글자크기), font-weight(글자굵기), font-variant(작은 대문자)
+   font-family (글꼴), 구글 웹 폰트사용, font-size(글자크기), font-weight(글자굵기), font-variant(작은 대문자)
 
 - `텍스트 스타일`
 
-color(글자 색), text-decoration(밑줄,취소선), text-transform(대소문자 변환), text-shadow(그림자), white-space(공백처리), letter-spacing과word-spacing(자간)
+   color(글자 색), text-decoration(밑줄,취소선), text-transform(대소문자 변환), text-shadow(그림자), white-space(공백처리), letter-spacing과word-spacing(자간)
 
 - `문단 스타일`
 
-line-height(줄 간격), text-overflow(넘치는텍스트 표기), text-indent(들여쓰기)
+   line-height(줄 간격), text-overflow(넘치는텍스트 표기), text-indent(들여쓰기)
 
+### **[chapter7] 색상과 배경을 위한 스타일**
 
+- `배경색과 배경이미지`
 
+   background-color(배경색 지정하기), background-clip(배경적용범위 조절), background-image(배경이미지), background-repeat(배경이미지 반복), background-size(배경이미지 크기)
+   background-position(배경이미지 위치), background-origin(배경이미지 배치기준), background-attachment(배경이미지 고정)
 
+- `그라데이션`
+
+   linear-gradient(선형 그라데이션), radial-gradient(원형 그라데이션)
+
+### **[chapter8] CSS와 박스 모델**
+
+- `CSS와 박스 모델`
+
+   블록레벨 요소 : 한 줄 차지(너비:100%), 너비나 마진, 패딩 설정 가능  
+   인라인레벨 요소 : 한 줄 차지 x, 콘텐츠만큼만 영역차지, 너비나 마진, 패딩 설정 불가능
+
+- `테두리 관련 속성들`
+
+   border-style(테두리 스타일), border-width(테두리 두께), border-color(테두리 색상), border-radius(모서리 둥글게), box-shadow(그림자)
+
+- `마진 중첩 현상`
+
+   요소를 세로로 배치할 경우, 마진과 마진이 만날 때 마진값이 큰 쪽으로 겹쳐지는 현상
+   
+### **[chapter9] CSS 레이아웃**
+
+- ``
 
 
 
