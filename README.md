@@ -1,5 +1,5 @@
 # Do it ! HTML5 + CSS3 
-> 매일 한 chapter씩 공부하여 pdf로 요약하고 유용한 기능들을 직접 따라하고 commit 하는 것을 목표로 합니다.👉
+> 매일 한 chapter씩 공부하여 pdf로 요약하고 유용한 기능들을 직접 따라하고 commit 하는 것을 목표로 합니다.
 
 ###  **[chapter1] HTML 기본 다지기**
 
@@ -128,9 +128,24 @@
    
 ### **[chapter9] CSS 레이아웃**
 
-- ``
+- `CSS포지셔닝과 주요 속성들`
 
+float속성(왼쪽이나 오른쪽으로 배치), clear속성(float속성 해제), position속성(배치방법), visiblility(보이기), z-index(쌓는순서)
 
+### **[chapter10] HTML5와 시맨틱 태그**
+
+- `HTML문서`
+
+시맨택태그를 써야하는 이유 : 어느 부분이 무슨 내용인지 쉽게 파악할 수 있으며 접근성이 좋다. 구조파악이 쉽다.
+
+- `시맨틱태그`
+
+\<header>, \<nav>, \<section>, \<aside>, \<footer>  
+👉\<header>안에 또 \<header>, \<nav>, \<section>, \<aside>, \<footer> 들어갈 수도 있다. \<header>외 다른 시맨틱태그들도 마찬가지, 정해진 규칙이 없다.
+
+### **[chapter11] HTML5와 멀티미디어**
+
+- `웹과 멀티미디어`
 
 
 
